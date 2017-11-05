@@ -298,6 +298,10 @@ code, .md-fences {
 	line-height: 0.9375rem;
 	margin-top: -1rem;
 }
+.task-list-item input:checked ~ * {
+    text-decoration: line-through;
+    color: gray;
+}
 
 /* Chrome 29+ */
 @media screen and (-webkit-min-device-pixel-ratio:0)
